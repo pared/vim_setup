@@ -3,7 +3,7 @@
 export VIM_HOME=~/.vim
 export VIMRC=~/.vimrc
 
-rm -rf VIM_HOME VIMRC
+rm -rf ${VIM_HOME} ${VIMRC}
 
 mkdir ${VIM_HOME}
 
