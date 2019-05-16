@@ -16,4 +16,4 @@ git clone https://github.com/scrooloose/nerdtree.git ${VIM_HOME}/bundle/nerdtree
 git clone https://github.com/xolox/vim-misc ${VIM_HOME}/bundle/vim-misc
 git clone https://github.com/xolox/vim-notes ${VIM_HOME}/bundle/vim-notes
 git clone https://github.com/tpope/vim-commentary ${VIM_HOME}/bundle/vim-commentary
-
+git clone https://github.com/tpope/vim-fugitive.git ${VIM_HOME}/bundle/vim-fugitive

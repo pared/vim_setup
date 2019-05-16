@@ -13,3 +13,7 @@ map <C-n> :NERDTreeToggle<CR>
 "setup term
 set splitbelow
 set splitright
+
+"make text no longer that 80 columns
+:set textwidth=80
+:set colorcolumn=+1
