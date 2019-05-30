@@ -16,3 +16,9 @@ set splitright
 
 "make text no longer that 80 columns
 let &colorcolumn=join(range(79,80),",")
+
+"setup fzf
+set rtp+=~/.fzf
+
+"setup lightline
+set laststatus=2
