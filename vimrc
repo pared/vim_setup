@@ -12,6 +12,9 @@ set rtp+=~/.fzf
 "setup lightline
 set laststatus=2
 
+"make delete work as backspace in insert mode
+set backspace=2
+
 map <leader>p :call InsertLine()<CR>
 
 function! InsertLine()
