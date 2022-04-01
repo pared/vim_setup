@@ -23,12 +23,16 @@ function! InsertLine()
 endfunction
 set regexpengine=0
 
+"line numbers
+set nu
+
 call plug#begin()
  Plug 'tpope/vim-commentary'
  Plug 'scrooloose/nerdtree'
  Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
  Plug 'junegunn/fzf.vim'
  Plug 'itchyny/lightline.vim'
+ Plug 'tpope/vim-fugitive'
 call plug#end()
 
 "" fzf.vim
@@ -45,4 +49,5 @@ map <leader>; :Commands<CR>
 map <leader>m :Maps<CR>
 map <leader>t :NERDTreeToggle<CR>
 
+let NERDTreeShowHidden=1
 
