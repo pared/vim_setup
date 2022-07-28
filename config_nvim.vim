@@ -1,5 +1,6 @@
 syntax on
 filetype plugin indent on
+colorscheme delek
 
 "setup term
 set splitbelow
@@ -32,7 +33,10 @@ call plug#begin()
  Plug 'junegunn/fzf.vim'
  Plug 'itchyny/lightline.vim'
  Plug 'tpope/vim-fugitive'
+ Plug 'github/copilot.vim'
 call plug#end()
+
+xnoremap p pgvy
 
 "" fzf.vim
 "" Quickly find and open a recently opened file
@@ -49,4 +53,5 @@ map <leader>m :Maps<CR>
 map <leader>t :NERDTreeToggle<CR>
 
 let NERDTreeShowHidden=1
+let g:NERDTreeChDirMode=2
 
