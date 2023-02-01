@@ -1,12 +1,10 @@
 #!/bin/bash
 
-
-set -exu
+set -xu
 
 sudo apt-get install zsh fzf
-chsh -s $(which zsh)
+echo 'source /usr/share/doc/fzf/examples/key-bindings.zsh' >> .zshrc
 
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 export VIM_HOME=~/.vim
 export VIMRC=~/.vimrc
@@ -24,3 +22,4 @@ RIPGREP_VERSION=$(curl -s "https://api.github.com/repos/BurntSushi/ripgrep/relea
 curl -Lo ripgrep.deb "https://github.com/BurntSushi/ripgrep/releases/latest/download/ripgrep_${RIPGREP_VERSION}_amd64.deb"
 sudo apt install -y ./ripgrep.deb
 
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
