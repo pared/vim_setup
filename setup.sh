@@ -25,3 +25,5 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
 echo 'source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh' >> ~/.zshrc
 echo 'source /usr/share/doc/fzf/examples/key-bindings.zsh' >> ~/.zshrc
+
+cp tmux.conf ~/.tmux.conf
