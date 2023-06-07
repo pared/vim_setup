@@ -4,7 +4,6 @@ set -xu
 
 sudo apt-get update
 sudo apt-get install zsh fzf
-echo 'source /usr/share/doc/fzf/examples/key-bindings.zsh' >> ~/.zshrc
 
 export VIM_HOME=~/.vim
 export VIMRC=~/.vimrc
@@ -25,3 +24,4 @@ sudo apt install -y ./ripgrep.deb
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
 echo 'source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh' >> ~/.zshrc
+echo 'source /usr/share/doc/fzf/examples/key-bindings.zsh' >> ~/.zshrc
