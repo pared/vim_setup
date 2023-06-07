@@ -23,3 +23,5 @@ curl -Lo ripgrep.deb "https://github.com/BurntSushi/ripgrep/releases/latest/down
 sudo apt install -y ./ripgrep.deb
 
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
+echo 'source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh' >> ~/.zshrc
