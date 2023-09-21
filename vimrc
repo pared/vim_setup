@@ -1,6 +1,8 @@
 syntax on
 filetype plugin indent on
 
+colorscheme desert
+
 "setup term
 set splitbelow
 set splitright
