@@ -23,8 +23,14 @@ Personal nvim/tmux/zsh setup for Ubuntu.
 
 ## Installation
 
+**Ubuntu:**
 ```bash
 ./setup.sh
+```
+
+**macOS:**
+```bash
+./setup_mac.sh
 ```
 
 Restart your terminal when it finishes — that's all.
